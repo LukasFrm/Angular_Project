@@ -47,7 +47,6 @@ export class CustomersListComponent implements OnInit {
             this.filteredCustomers = this.customers;
         }
         this.calculateOrders();
-
     }
     
     sort(prop: string) {
